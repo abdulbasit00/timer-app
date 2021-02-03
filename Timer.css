@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+#hour{font-size: 150px;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    font-family: digital;
+
+
+}
+#minute{
+    font-size: 150px;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    font-family: digital;
+
+}
+#sec{ font-size: 150px;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    font-family: digital;
+}
+
+.timer{
+    display: inline-flex;
+}
+
+.time{
+   color: red;
+background-color: rgb(0, 0, 0);
+font-family: digital;
+border: red;
+margin: 50px;
+margin-bottom: 80px;
+position: relative;
+left:  62px;
+}
+h1{
+    color: red;
+background-color: rgb(0, 0, 0);
+font-family: digital;
+font-size: 100px;
+margin-top:100px ;
+}
+.dot{
+    color: red;
+background-color: rgb(0, 0, 0);
+font-family: digital;
+font-size: 140px;
+position: relative;
+top: 40px;
+margin: 20px;
+
+}
+
+@font-face
+{
+    font-family: digital;
+    src: url(digital-7/digital-7.ttf);
+}
+button{margin:15px ;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+border-color: rgb(255, 0, 0);
+  font-family: digital;
+  
+}
+.back{margin:50px ;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+border-color: rgb(255, 0, 0);
+  font-family: digital;
+  
+}
+
